@@ -12,12 +12,6 @@ public abstract class Estado {
 	
 	public int getEstado() {return estado;}
 
-	
 	public abstract Estado beberGrog();
-	
 	public abstract Estado tomarNaranja();
-
-	public void incrementarGrog() {
-		contGrog++;
-	}
 }

@@ -5,7 +5,7 @@ public class Pirata {
 	private Estado estadoPirata;
 	
 	public Pirata(){
-		estadoPirata = new Saludable();//-1=Escorbuto, 0=Saludable, 1=Hipersaludable
+		estadoPirata = new Saludable();
 		ptos = 0;
 	}
 	
